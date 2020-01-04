@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
+    display: block;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+.app {
+    height: 37vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.app2 {
+    height: 63vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 50px 0px 25px 0px;
+    text-align: center;
+    font-size: 40px;
+}
+
+h2 {
+    margin: 10px 0px 0px 0px;
+    text-align: center;
+    font-size: 35px;
+    padding-top: 100px;
+}
+
+header p {
+    font-size: 20px;
+}
+
+.pads {
+    background: lightblue;
+    width: 100%;
+    display: flex;
+}
+
+.pads>div {
+    height: 100px;
+    width: 100px;
+    flex: 1;
+}
+
+.pad1 {
+    background: #ff86f5;
+}
+
+.pad2 {
+    background: #2aec8b;
+}
+
+.pad3 {
+    background: #3cffff;
+}
+
+.pad4 {
+    background: #f6ff74;
+}
+
+.pad5 {
+    background: #c0aaff;
+}
+
+.pad6 {
+    background: #ffba7a;
+}
+
+.pad7 {
+    background: #a39af5;
+}
+
+.pad8 {
+    background: #635bb4;
+}
+
+.pad9 {
+    background: #1edda4;
+}
+
+.pad10 {
+    background: #bec28e;
+}
+
+.pad11 {
+    background: #1fff2a;
+}
+
+.pad12 {
+    background: #ff2bae;
+}
+
+.pad13 {
+    background: #00ff22;
+}
+
+.pad14 {
+    background: #2ae5ec;
+}
+
+.pad15 {
+    background: #ffcb3c;
+}
+
+.pad16 {
+    background: #d6e41a;
+    padding-top: 10px;
+}
+
+.pad17 {
+    background: #b83cd1;
+    padding-top: 23px;
+}
+
+.pad18 {
+    background: #a36c39;
+    padding-top: 10px;
+}
+
+.visual>div {
+    position: absolute;
+    bottom: 0%;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    transform: scale(1);
+    z-index: -1;
+}
+
+@keyframes jump {
+    0% {
+        bottom: 0%;
+        left: 20%;
+    }
+    50% {
+        bottom: 50%;
+        left: 50%;
+    }
+    100% {
+        bottom: 0%;
+        left: 80%;
+    }
+}
