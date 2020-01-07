@@ -20,7 +20,7 @@ window.addEventListener('load', () => {
         '#1fff2a',
         '#ff2bae',
         '#00ff22',
-        '#818181',
+        '#2ae5ec',
         '#ffcb3c',
         '#d6e41a',
         '#b83cd1',

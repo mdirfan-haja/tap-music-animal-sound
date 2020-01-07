@@ -5,7 +5,23 @@
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+    color: rgb(250, 250, 250);
+    font-size: 36px;
+    line-height: 1.6;
+    background-image: url('image/selective-focus-photo-of-turn-table-2988289.jpg');
+    overflow: hidden;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .container {
@@ -14,10 +30,6 @@ body {
     overflow-y: scroll;
     scroll-behavior: smooth;
     scroll-snap-type: y mandatory;
-    display: block;
-    position: relative;
-    overflow: hidden;
-    text-align: center;
 }
 
 .app {
@@ -115,14 +127,17 @@ header p {
 
 .pad13 {
     background: #00ff22;
+    padding-top: 15px;
 }
 
 .pad14 {
     background: #2ae5ec;
+    padding-top: 15px;
 }
 
 .pad15 {
     background: #ffcb3c;
+    padding-top: 15px;
 }
 
 .pad16 {
